@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    width: 75%;
+}
+
+ul li::marker{
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+main ul li{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.up{
+    float: right;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    position: sticky;
+    color: black;
+}
+
+
+#title{
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.done{
+    color:#00ff00
+}
+
+.todo{
+    color:#ff0000;
+    margin-left: 50px;
+}
